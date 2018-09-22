@@ -1,0 +1,125 @@
+/* Header */
+* {
+	margin: 0;
+	padding: 0;
+}
+.large-header {
+	position: relative;
+	
+	width: 100%;
+	height: 100%;
+	background: #333;
+	background-size: cover;
+	background-position: center center;
+}
+
+#demo-canvas {
+	width: 100%;
+	height: 100%;
+
+}
+
+.large-header {
+	background-image: url('../img/demo-1-bg.jpg');
+	background-attachment: fixed;
+}
+
+.header-container {
+  	width: 50%;
+  	margin: 0 auto;
+  	border-bottom: white;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    padding-bottom: 1%;
+}
+
+.container-content {
+	display: block;
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+}
+
+
+
+.main-title {
+    color: #f9f1e9;
+    text-align: center;
+    top: 0;
+    margin: 1% auto;
+    font-family: 'Anton', sans-serif;
+}
+
+.soc-networks {
+	text-align: center;
+	color: #fff;
+	font-size: 120%;
+}
+.soc-networks p{
+	text-decoration: underline;
+}
+
+.vkon {
+	display:inline-block;
+	vertical-align:bottom;
+	width:24px;
+	height:24px;
+	margin:0.5% 1%;
+	padding:0;
+	outline:none;
+	background:url(../img/icons.png) 0 0 no-repeat;
+	background-size: auto 87% ;
+	transition: all 0.3s ease-in-out;
+}
+.vkon:hover {
+	display:inline-block;
+	vertical-align:bottom;
+	width:24px;
+	height:24px;
+	margin:0.5% 1%;
+	padding:0;
+	outline:none;
+	background:url(../img/icons-1.png) 0 0 no-repeat;
+	background-size: auto 87% ;
+}
+.inst {
+	display:inline-block;
+	vertical-align:bottom;
+	width:24px;
+	height:24px;
+	margin:0.5% 1%;
+	padding:0;
+	outline:none;
+	background:url(../img/icons.png) -25px 0 no-repeat;
+	background-size: auto 90% ;
+	transition: all 0.3s ease-in-out;
+}
+.inst:hover {
+	display:inline-block;
+	vertical-align:bottom;
+	width:24px;
+	height:24px;
+	margin:0.5% 1%;
+	padding:0;
+	outline:none;
+	background:url(../img/icons-1.png) -25px 0 no-repeat;
+	background-size: auto 90% ;
+}
+
+.main-title {
+	font-variant: small-caps;
+	font-size: 4.2em;
+	letter-spacing: 0.1em;
+}
+
+.main-title {
+	font-weight: 200;
+}
+
+
+@media only screen and (max-width : 768px) {
+	.demo-1 .main-title {
+		font-size: 3em;
+	}
+}
